@@ -24,6 +24,7 @@ services:
      bucket: <bucket-name>
      region: <bucket-region>
      verify_ssl: true
+     port: 443 # this is required
      access_key_id: <aws-iam-access-key> # or <gcs-hmac-key> if using GCS
      secret_access_key: <aws-iam-secret> # or <gcs-hmac-secret> if using GCS
      iam_auth: <boolean, default false> # set to true in AWS to attempt to authentice via Instance role
